@@ -1,8 +1,8 @@
-rule mailer1
+rule php_mailer_1
 {
 
 	meta:
-	   author = "Hestat"
+	   author = "Brian Laskowski"
 	   info = " php mailer script "
 
 	strings:

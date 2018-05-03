@@ -1,8 +1,8 @@
-rule cachemailer
+rule cache_mailer
 {
 
 	meta:
-	   author = "Hestat"
+	   author = "Brian Laskowski"
 	   info = " php mailer script "
 
 	strings:
@@ -13,11 +13,11 @@ rule cachemailer
 	all of them
 }
 
-rule cachmailerencoded1
+rule cache_mailer_encoded_1
 {
 
 	meta:
-	  author = "Hestat"
+	  author = "Brian Laskowski"
 	  info = " obfuscated php shell "
 
 	strings:

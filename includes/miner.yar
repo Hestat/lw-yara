@@ -1,7 +1,7 @@
 rule crypto_miner
 {
 	meta: 
-	author= "Hestat"
+	author= "Brian Laskowski"
 	info= " Detected a cryptomining exe"
 
 	strings:

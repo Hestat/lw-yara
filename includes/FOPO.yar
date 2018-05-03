@@ -1,7 +1,7 @@
 rule FOPOobfuscator
 {
 	meta: 
-	author= "Hestat"
+	author= "Brian Laskowski"
 	info= " FOPO Obfuscator detected"
 
 	strings:
