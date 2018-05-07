@@ -1,4 +1,4 @@
-rule bad_packets_crypto_jacking_0
+rule bad_packets_crypto_jacking_1
 {
 	meta: 
 	author= "Brian Laskowski"
