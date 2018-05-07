@@ -5,9 +5,11 @@ rule drupal_CVE_2018_7600_RCE_0
 	info= " Drupal RCE shell"
 
 	strings:
-		$a = "echo "<pre>";system($_GET['c']); echo "</pre>";"
+		$a = "echo"
+		$b = "<pre>"
+		$c = ";system($_GET['c'])"
 	
 	condition:
-		$a
+		all of them
 }
 
