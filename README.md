@@ -2,7 +2,7 @@
 
 Yara rulset based on php shells and other webserver malware. 
 
-###scanning using clamav with custom rules###
+# scanning using clamav with custom rules
 
 example at https://laskowski-tech.com/2018/04/26/eitest-cleanup-part-2-using-clamav-and-custom-yara-rules/
 
@@ -12,7 +12,8 @@ example at https://laskowski-tech.com/2018/04/26/eitest-cleanup-part-2-using-cla
 
 
 
-###This is still work in progress###
+# This is still work in progress
+
 Includes an install script to allow for the rules to be added to the maldet scanner.
 
 https://github.com/rfxn/linux-malware-detect
