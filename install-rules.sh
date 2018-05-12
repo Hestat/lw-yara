@@ -8,7 +8,8 @@ if [[ -x $(which maldet) ]] 2> /dev/null; then #maldet installed
 	#backup existing rules
 	cp -av /usr/local/maldetect/sigs/rfxn.yara{,.bak}
 	#add combined ruleset
-	cat lw-rules-combined.yar >> /usr/local/maldetect/sigs/rfxn.yara
+	for i in $(cut -d . -f 2 lw-rules_index.yar); do cat $i >>  /usr/local/maldetect/sigs/rfxn.yara
+	#cat lw-rules-combined.yar >> /usr/local/maldetect/sigs/rfxn.yara
 	echo " Backed up existing rules to"
 	echo "/usr/local/maldetect/sigs/rfxn.yara.bak"
 	echo "Good Hunting!"
