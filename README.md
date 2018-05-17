@@ -7,7 +7,11 @@ Yara rulset based on php shells and other webserver malware.
 example at https://laskowski-tech.com/2018/04/26/eitest-cleanup-part-2-using-clamav-and-custom-yara-rules/
 
 
- ```clamscan -ir -d /root/lw-yara/lw-rules-combined.yar /path/to/scan/```
+ ```clamscan -ir -d /root/lw-yara/lw-rules-combined.yar -d /root/lw-yara/lw.hdb /path/to/scan/```
+
+More info here:
+
+https://laskowski-tech.com/2018/05/17/malware-databased-custom-malware-signatures/
 
 
 
