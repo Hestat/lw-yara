@@ -7,7 +7,11 @@ rule alfa_perl_shell
 
     strings:
     
-	$s3="ExecuteCommand"	
+	$s1="usr/bin/perl"
+	$s2="$WinNT"
+	$s3="ExecuteCommand"
+	$s4="Killed it!"
+	
 
     condition:
     all of them
