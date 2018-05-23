@@ -17,6 +17,7 @@ rule phishing_actor_emails
 	$a7= "chopdodo001@gmail.com"
 	$a8= "mrlarrysss@gmail.com"
 	$a9= "iyalaya00@gmail.com"
+	$a10="fadawfaissal1@gmail.com"
 
     condition:
     any of them
