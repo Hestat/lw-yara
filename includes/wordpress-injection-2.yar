@@ -13,6 +13,6 @@ rule wordpress2_ico_injection_detected
 	//$s4="ic\x6f"
 
     condition:
-    all of them
+    all of them and filesize < 20KB
 }
 
