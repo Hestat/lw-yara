@@ -1,22 +1,22 @@
-rule generic_php_obfuscated_shell
+rule generic_php_03
 
 {
 
 	meta:
 	 author= "Brian Laskowski"
-	 date= "5/21/18"
-	 description= "general php malware with obfuscation"
+	 date= "5/29/18"
+	 description= "example.sites.php malware"
 	strings:
-	
-	$s1="auth_pass"
-	$s2="function"
-	$s3="strlen"
-	$s4="return"
-	$s5="?php"
-	$s6="base64_decode"
-
+	$a= "function_exists"
+	$b= "function"
+	$c= "for"
+	$d= "xor"
+	$e= "chr"
+	$f= "strlen"
+	$g= "return"
+	$h= "=array"
+	$i= "?php"
 
 	condition:
 	all of them
 }
-
