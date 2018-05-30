@@ -36,3 +36,6 @@ include "./includes/class_12371_uploader.yar"
 include "./includes/scanner_obfuscated_shell.yar"
 include "./includes/052918_case109.yar"
 include "./includes/dedsec-symlinker.yar"
+include "./includes/drupal.js-coinhive.yar"
+include "./includes/netscrape_shell.yar"
+
