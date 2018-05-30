@@ -8,7 +8,7 @@
 
 /* Rule Set ----------------------------------------------------------------- */
 
-rule _media_brian_88D1_7DB91_infected_05_29_18_pythonsymlinker_sym {
+rule infected_05_29_18_pythonsymlinker_sym {
    meta:
       description = "pythonsymlinker - file sym.py"
       author = "Brian Laskowski"
