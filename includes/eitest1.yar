@@ -9,6 +9,7 @@ rule eitest_injection_0
 	strings:
 	 $a= "@error_reporting(0)"
 	 $b= "!isset($eva1f"
+	 $c= "?php"
 	condition:
 	all of them
 }
