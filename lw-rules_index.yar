@@ -39,4 +39,5 @@ include "./includes/dedsec-symlinker.yar"
 include "./includes/drupal.js-coinhive.yar"
 include "./includes/netscrape_shell.yar"
 include "./includes/day_uploader_shell.yar"
+include "./includes/luk_miner.yar"
 
