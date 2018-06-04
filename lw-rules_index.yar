@@ -44,5 +44,6 @@ include "./includes/js-malvertising.yar"
 include "./includes/shells_119.yar"
 include "./includes/pass_shell.yar"
 include "./includes/ico_sig_673244e9.yar"
+include "./includes/case116_a_miner_persistence.yar"
 
 
