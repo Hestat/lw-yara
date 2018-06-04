@@ -42,4 +42,5 @@ include "./includes/day_uploader_shell.yar"
 include "./includes/luk_miner.yar"
 include "./includes/js-malvertising.yar"
 include "./includes/shells_119.yar"
+include "./includes/pass_shell.yar"
 
