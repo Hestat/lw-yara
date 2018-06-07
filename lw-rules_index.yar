@@ -46,6 +46,7 @@ include "./includes/pass_shell.yar"
 include "./includes/case116_a_miner_persistence.yar"
 include "./includes/y_php_shell.yar"
 include "./includes/prowli.yar"
+include "./includes/BabaYaga.yar"
 
 
 
