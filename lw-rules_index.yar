@@ -47,6 +47,8 @@ include "./includes/case116_a_miner_persistence.yar"
 include "./includes/y_php_shell.yar"
 include "./includes/prowli.yar"
 include "./includes/BabaYaga.yar"
+include "./includes/apache_XMR_MINER.yar"
+include "./includes/paypal_phishing_kit_001.yar"
 
 
 
