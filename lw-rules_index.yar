@@ -49,6 +49,7 @@ include "./includes/prowli.yar"
 include "./includes/BabaYaga.yar"
 include "./includes/apache_XMR_MINER.yar"
 include "./includes/paypal_phishing_kit_001.yar"
+include "./includes/drupal_injection_001.yar"
 
 
 
