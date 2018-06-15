@@ -51,6 +51,7 @@ include "./includes/apache_XMR_MINER.yar"
 include "./includes/paypal_phishing_kit_001.yar"
 include "./includes/drupal_injection_001.yar"
 include "./includes/drupal_injection_134.yar"
+include "./includes/sig_7409295928_WSO_gen.yar"
 
 
 
