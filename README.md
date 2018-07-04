@@ -1,6 +1,14 @@
 # lw-yara
 
-Yara rulset based on php shells and other webserver malware. 
+Yara rulset based on php shells and other webserver malware.
+
+I will be moving to a new role soon which will take me away from front line server investigations. If you would like to keep this dataset up to date report back new malware using my scanner:
+
+ https://github.com/Hestat/blazescan
+
+Using the following will allow you to report new malware so I can add signatures:
+
+blazescan -R
 
 # Installation instruction
 
@@ -26,8 +34,6 @@ In clamscan
 More info here:
 
 https://laskowski-tech.com/2018/05/17/malware-databased-custom-malware-signatures/
-
-
 
 
 # Want a scanner to run this check out:
