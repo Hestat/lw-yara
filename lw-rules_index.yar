@@ -58,6 +58,4 @@ include "./includes/weeman.yar"
 include "./includes/wp-shells_case137.yar"
 include "./includes/main_js_malvertising_139.yar"
 include "./includes/inv_09854_exe.yar"
-
-
-
+include "./includes/cryptojacking_signatures.yar"
