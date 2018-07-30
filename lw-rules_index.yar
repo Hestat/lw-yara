@@ -64,4 +64,5 @@ include "./includes/Tryag-File-Manager-1.yar"
 include "./includes/mass_bot_exploite_master.yar"
 include "./includes/yertle.yar"
 include "./includes/sans-xme-072818.yar"
+include "./includes/master134.yar"
 
