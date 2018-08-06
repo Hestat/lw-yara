@@ -65,4 +65,7 @@ include "./includes/mass_bot_exploite_master.yar"
 include "./includes/yertle.yar"
 include "./includes/sans-xme-072818.yar"
 include "./includes/master134.yar"
-
+include "./includes/joomla-shell-case21.yar"
+include "./includes/case32-db.yar"
+include "./includes/case25-shells.yar"
+include "./includes/case25-miners.yar"
