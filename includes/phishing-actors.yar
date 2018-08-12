@@ -23,6 +23,8 @@ rule phishing_actor_emails
 	$a13="rezult277@gmail.com"
 	$a14="evansjohnny40@gmail.com"
 	$a15="herren.ruth@gmail.com"
+	$a16="loveofwisdom119@gmail.com"
+	$a17="groundsnetz@gmail.com"
 
     condition:
     any of them
