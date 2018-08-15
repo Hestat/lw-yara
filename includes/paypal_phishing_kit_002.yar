@@ -10,7 +10,7 @@
 
 
 
-rule paypal_08_14_18_phishing_admin_general {
+rule paypal_phishing_admin_general {
    meta:
       description = "admin - file general.php"
       author = "Brian Laskowski"
@@ -45,7 +45,7 @@ rule paypal_08_14_18_phishing_admin_general {
       ) or ( all of them )
 }
 
-rule paypal_08_14_18_phishing_admin_smtp {
+rule paypal_phishing_admin_smtp {
    meta:
       description = "admin - file smtp.php"
       author = "Brian Laskowski"
