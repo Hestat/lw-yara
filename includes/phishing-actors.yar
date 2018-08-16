@@ -26,6 +26,8 @@ rule phishing_actor_emails
 	$a16="loveofwisdom119@gmail.com"
 	$a17="groundsnetz@gmail.com"
 	$a18="kellyrauch16@gmail.com"
+	$a19="log.alone2@gmail.com"
+	$a20="log.alone@protonmail.com"
 
     condition:
     any of them
