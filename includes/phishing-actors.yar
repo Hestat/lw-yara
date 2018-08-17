@@ -28,7 +28,11 @@ rule phishing_actor_emails
 	$a18="kellyrauch16@gmail.com"
 	$a19="log.alone2@gmail.com"
 	$a20="log.alone@protonmail.com"
+	$a21="sikkens40@zoho.com"
+	$a22="sikkens40@gmail.com"
+
 
     condition:
-    any of them
+    
+	any of them
 }
