@@ -30,6 +30,8 @@ rule phishing_actor_emails
 	$a20="log.alone@protonmail.com"
 	$a21="sikkens40@zoho.com"
 	$a22="sikkens40@gmail.com"
+	$a23="mandrell009@gmail.com"
+	$a24="born.last@yandex.com"
 
 
     condition:
