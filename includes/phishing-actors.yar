@@ -34,6 +34,7 @@ rule phishing_actor_emails
 	$a24="born.last@yandex.com"
 	$a25="serverupdate@yahoo.com"
 	$a26="spaul8608@gmail.com"
+	$a27="chrismason601@gmail.com"
 
 
     condition:
