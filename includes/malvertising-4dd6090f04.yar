@@ -16,9 +16,6 @@ rule sig_4dd6090f04 {
       date = "2018-08-18"
       hash1 = "b3166068189c84f5ed00642fb82fb1ce77c8a51cfc3619fe4e75763cc088e73b"
    strings:
-      $x1 = "PclZip::privErrorLog(PCLZIP_ERR_BAD_FORMAT, 'gzip temporary file \\''.$v_gzip_temp_name.'\\' has invalid filesize - should be " fullword ascii
-      $x2 = "PclZip::privErrorLog(PCLZIP_ERR_READ_OPEN_FAIL, 'Unable to open temporary file \\''.$v_zip_temp_name.'\\' in binary write mode" fullword ascii
-      $x3 = "PclZip::privErrorLog(PCLZIP_ERR_READ_OPEN_FAIL, 'Unable to open temporary file \\''.$v_gzip_temp_name.'\\' in binary read mode" fullword ascii
       $s4 = "PclZip::privErrorLog(PCLZIP_ERR_UNSUPPORTED_ENCRYPTION, 'File \\''.$p_entry['filename'].'\\' is encrypted. Encrypted fil" fullword ascii
       $s5 = "PclZip::privErrorLog(PCLZIP_ERR_WRITE_OPEN_FAIL, 'Unable to open temporary file \\''.$v_gzip_temp_name.'\\' in binary write mo" fullword ascii
       $s6 = "PclZip::privErrorLog(PCLZIP_ERR_READ_OPEN_FAIL, 'Unable to open archive file \\''.$p_archive_filename.'\\' in binary write mod" fullword ascii
@@ -38,8 +35,5 @@ rule sig_4dd6090f04 {
       $s20 = "PclZip::privErrorLog(PCLZIP_ERR_INVALID_OPTION_VALUE, \"Value must be integer, string or array for option '\".PclZipUtil" fullword ascii
       $s21 = "base64_decode"
    condition:
-      ( uint16(0) == 0x3f3c and
-         filesize < 400KB and
-         ( 1 of ($x*) and 4 of them )
-      ) or ( all of them )
+       all of them 
 }
