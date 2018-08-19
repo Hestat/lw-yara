@@ -36,6 +36,7 @@ rule sig_4dd6090f04 {
       $s18 = "PclZip::privErrorLog(PCLZIP_ERR_INVALID_ATTRIBUTE_VALUE, \"Invalid empty full filename for attribute '\".PclZipUtilOptio" fullword ascii
       $s19 = "PclZip::privErrorLog(PCLZIP_ERR_INVALID_OPTION_VALUE, \"Function '\".$v_function_name.\"()' is not an existing function f" fullword ascii
       $s20 = "PclZip::privErrorLog(PCLZIP_ERR_INVALID_OPTION_VALUE, \"Value must be integer, string or array for option '\".PclZipUtil" fullword ascii
+      $s21 = "base64_decode"
    condition:
       ( uint16(0) == 0x3f3c and
          filesize < 400KB and
