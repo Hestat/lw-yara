@@ -1,0 +1,3 @@
+#Add your signatures you want to whitelist here
+#EX /home/user/public_html/08-19-18/shell2/404.php: YARA.infected_08_19_18_shell2_404.UNOFFICIAL FOUND
+# add infected_08_19_18_shell2_404 here to whitelist the file
