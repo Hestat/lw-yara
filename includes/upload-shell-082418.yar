@@ -8,7 +8,7 @@
 
 /* Rule Set ----------------------------------------------------------------- */
 
-rule _home_hawk_infected_08_24_18_shell1_ubh {
+rule infected_08_24_18_upload_shell_ubh {
    meta:
       description = "shell1 - file ubh.php"
       author = "Brian Laskowski"
