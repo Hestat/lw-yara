@@ -38,6 +38,7 @@ rule phishing_actor_emails
 	$a28="successful.drizzy@gmail.com"
 	$a29="zzxxccah22@gmail.com"
 	$a30="infodervice@gmail.com"
+	$a31="razinekhaled@gmail.com"
 
 
     condition:
