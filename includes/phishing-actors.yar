@@ -43,6 +43,7 @@ rule phishing_actor_emails
 	$a33="napolitanoj17@yahoo.com"
 	$a34="resulteere1121@outlook.com"
 	$a35="herefordboyd1@yandex.com"
+	$a36="mr.magma2017@gmail.com"
 
     condition:
     
