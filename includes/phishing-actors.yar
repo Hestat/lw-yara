@@ -40,7 +40,9 @@ rule phishing_actor_emails
 	$a30="infodervice@gmail.com"
 	$a31="razinekhaled@gmail.com"
 	$a32="heymuspapa@gmail.com"
-
+	$a33="napolitanoj17@yahoo.com"
+	$a34="resulteere1121@outlook.com"
+	$a35="herefordboyd1@yandex.com"
 
     condition:
     
