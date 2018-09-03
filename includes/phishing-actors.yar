@@ -45,6 +45,7 @@ rule phishing_actor_emails
 	$a35="herefordboyd1@yandex.com"
 	$a36="mr.magma2017@gmail.com"
 	$a37="casualonakoya@gmail.com"
+	$a38="lentomass60@gmail.com"
 
     condition:
     
