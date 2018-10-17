@@ -1,0 +1,85 @@
+/*
+   Yara Rule Set
+   Author: Brian Laskowski
+   Date: 2018-10-16
+   Identifier: data
+   Reference: https://github.com/Hestat/lw-yara/
+*/
+
+/* Rule Set ----------------------------------------------------------------- */
+
+rule magecart_3 {
+   meta:
+      description = "data - file magecart.txt"
+      author = "Brian Laskowski"
+      reference = "https://github.com/Hestat/lw-yara/"
+      date = "2028-10-16"
+      hash3 = "5dc6e5d9c6e1c25c2470fd343e7d061bf9b4a2c73fffd7c56eb205efd05dd6fa"
+   strings:
+	$s129 = "jquery-validation.org"
+	$s130 = "js-abuse.link"
+	$s131 = "js-abuse.su"
+	$s132 = "js-cdn.link"
+	$s133 = "js-cloud.com"
+	$s134 = "js-link.su"
+	$s135 = "js-magic.link"
+	$s136 = "js-mod.su"
+	$s137 = "js-save.link"
+	$s138 = "js-save.su"
+	$s139 = "js-start.su"
+	$s140 = "js-stat.su"
+	$s141 = "js-sucuri.link"
+	$s142 = "js-syst.su"
+	$s143 = "js-top.link"
+	$s144 = "js-top.su"
+	$s145 = "jscript-cdn.com"
+	$s146 = "jscripts-cloud.com"
+	$s147 = "jscriptscloud.com"
+	$s148 = "jsdellvr.com"
+	$s149 = "jsecurely.com"
+	$s150 = "jsecuri.com"
+	$s151 = "jsmagento.com"
+	$s152 = "jspoi.com"
+	$s153 = "kennedyform.com"
+	$s154 = "kissmetrik.com"
+	$s155 = "listrakb.com"
+	$s156 = "locateooo.com"
+	$s157 = "logisticusa.biz"
+	$s158 = "lolfree.pw"
+	$s159 = "m24js.com"
+	$s160 = "mage-cdn.link"
+	$s161 = "mage-js.link"
+	$s162 = "mage-js.su"
+	$s163 = "magecompas.com"
+	$s164 = "mageconfig.com"
+	$s165 = "magejavascripts.com"
+	$s166 = "magely.info"
+	$s167 = "magento-cdn.top"
+	$s168 = "magentocore.net"
+	$s169 = "mageonline.net"
+	$s170 = "magescripts.info"
+	$s171 = "magescripts.pw"
+	$s172 = "magesecurely.com"
+	$s173 = "magesecuritys.com"
+	$s174 = "magesources.com"
+	$s175 = "magestops.com"
+	$s176 = "maskforms.com"
+	$s177 = "maxijs.com"
+	$s178 = "minifyscripts.com"
+	$s179 = "minpays.com"
+	$s180 = "mipss.su"
+	$s181 = "mjs24.com"
+	$s182 = "mod-js.su"
+	$s183 = "mod-sj.link"
+	$s184 = "monenate.net"
+	$s185 = "monerate.net"
+	$s186 = "monestate.net"
+	$s187 = "msecurely.com"
+	$s188 = "my-braintree.com"
+	$s189 = "myageverify.com"
+	$s190 = "netmg-cdn.com"
+	$s191 = "neweggstats.com"
+	$s192 = "ohpoliy.com"
+   condition:
+       any of them
+}

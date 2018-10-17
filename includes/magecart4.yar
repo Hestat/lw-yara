@@ -1,0 +1,85 @@
+/*
+   Yara Rule Set
+   Author: Brian Laskowski
+   Date: 2018-10-16
+   Identifier: data
+   Reference: https://github.com/Hestat/lw-yara/
+*/
+
+/* Rule Set ----------------------------------------------------------------- */
+
+rule magecart_4 {
+   meta:
+      description = "data - file magecart.txt"
+      author = "Brian Laskowski"
+      reference = "https://github.com/Hestat/lw-yara/"
+      date = "2028-10-16"
+      hash3 = "5dc6e5d9c6e1c25c2470fd343e7d061bf9b4a2c73fffd7c56eb205efd05dd6fa"
+   strings:
+	$s193 = "onlineshopsecurity.com"
+	$s194 = "onlinestatus.site"
+	$s195 = "optimizly.info"
+	$s196 = "paymentsystem.info"
+	$s197 = "paypallobjects.com"
+	$s198 = "privacyform.com"
+	$s199 = "privatejs.com"
+	$s200 = "privatixjs.com"
+	$s201 = "qsxjs.com"
+	$s202 = "realtrustsafe.com"
+	$s203 = "receiverinformation.com"
+	$s204 = "resselerratings.com"
+	$s205 = "rlteaid.com"
+	$s206 = "s3-us-west.com"
+	$s207 = "safeyouform.com"
+	$s208 = "samescripts.com"
+	$s209 = "samexsame.com"
+	$s210 = "saveyoujs.com"
+	$s211 = "scriptsform.com"
+	$s212 = "scriptsjzone.com"
+	$s213 = "secureqbrowser.com"
+	$s214 = "securipayment.com"
+	$s215 = "security-mage.com"
+	$s216 = "secury-checkout.com"
+	$s217 = "shelljs.com"
+	$s218 = "shop-analytics.net"
+	$s219 = "simpiehuman.com"
+	$s220 = "sj-mod.link"
+	$s221 = "sj-syst.link"
+	$s222 = "slripe.com"
+	$s223 = "specjs.com"
+	$s224 = "sportys.store"
+	$s225 = "sslbrainform.com"
+	$s226 = "sslpayform.com"
+	$s227 = "sslvalidator.com"
+	$s228 = "stat-sj.link"
+	$s229 = "statdd.su"
+	$s230 = "statesales.info"
+	$s231 = "statistic-info.me"
+	$s232 = "statsdot.eu"
+	$s233 = "stecker.su"
+	$s234 = "stek-js.link"
+	$s235 = "storentrust.com"
+	$s236 = "stormnguard.com"
+	$s237 = "sucuri-cloud.com"
+	$s238 = "syst-sj.link"
+	$s239 = "system-backup.biz"
+	$s240 = "termlifelearned.us"
+	$s241 = "top-sj.link"
+	$s242 = "trafficanalyzer.biz"
+	$s243 = "traskedlink.com"
+	$s244 = "truefree.pw"
+	$s245 = "trustd.biz"
+	$s246 = "typejsx.com"
+	$s247 = "typekitcloud.com"
+	$s248 = "typeklt.com"
+	$s249 = "uorineall.info"
+	$s250 = "userinfos.com"
+	$s251 = "userinfos.info"
+	$s252 = "userlandform.com"
+	$s253 = "userlandpay.com"
+	$s254 = "uslogisticexpress.com"
+	$s255 = "validatenyou.com"
+	$s256 = "validateyourinfo.com"
+   condition:
+       any of them
+}
