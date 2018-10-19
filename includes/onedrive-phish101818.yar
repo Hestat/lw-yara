@@ -8,7 +8,7 @@
 
 /* Rule Set ----------------------------------------------------------------- */
 
-rule _home_hawk_infected_10_18_18_latest_onedrive_emailcode_email {
+rule infected_10_18_18_onedrive_emailcode {
    meta:
       description = "emailcode - file email.php"
       author = "Brian Laskowski"
