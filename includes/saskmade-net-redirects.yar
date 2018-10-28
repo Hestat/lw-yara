@@ -9,7 +9,7 @@
 
 /* Rule Set ----------------------------------------------------------------- */
 
-rule _home_hawk_infected_10_29_18_script2 {
+rule infected_10_29_18_script2 {
    meta:
       description = "10-29-18 - redirect code"
       author = "Brian Laskowski"
