@@ -9,7 +9,7 @@
 
 /* Rule Set ----------------------------------------------------------------- */
 
-rule infected_10_29_18_script2 {
+rule infected_10_29_18_saskmade_net {
    meta:
       description = "10-29-18 - redirect code"
       author = "Brian Laskowski"
