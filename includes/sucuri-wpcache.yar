@@ -4,6 +4,7 @@
    Date: 2018-11-10
    Identifier: 11-10-18
    Reference: https://github.com/Hestat/lw-yara/
+   Reference2: https://blog.sucuri.net/2018/11/erealitatea-net-hack-corrupts-websites-with-wp-gdpr-compliance-plugin-vulnerability.html
 */
 
 /* Rule Set ----------------------------------------------------------------- */
