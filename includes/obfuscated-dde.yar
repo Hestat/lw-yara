@@ -1,3 +1,12 @@
+/*
+   Yara Rule Set
+   Date: 2018-11-10
+   Identifier: 11-10-18
+   Reference: https://github.com/Hestat/lw-yara/
+   Reference1: https://blog.reversinglabs.com/blog/cvs-dde-exploits-and-obfuscation
+*/
+
+
 rule obfuscated_dde
 {
     strings:
