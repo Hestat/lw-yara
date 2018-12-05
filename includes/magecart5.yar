@@ -38,6 +38,8 @@ rule magecart_5 {
 	$s276 = "youpayme.info"
 	$s277 = "zonejs.com"
 	$s278 = "friend4cdn.com"
+	$s279 = "g-statistic.com"
+	$s280 = "bootstrap-js.com"
    condition:
        any of them
 }
