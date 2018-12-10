@@ -58,7 +58,6 @@ rule ninoseki_phishing_actor_emails_1
 	$sig50 = "td@gmail.com"
 	$sig51 = "taylorotwell@gmail.com"
 	$sig52 = "sus.results@gmail.com"
-	$sig53 = "support@akismet.com"
 	$sig54 = "suppakilla@gmail.com"
 	$sig56 = "subscribe@googlegroups.com"
 	$sig57 = "stewartpacific@gmail.com"
