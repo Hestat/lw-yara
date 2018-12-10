@@ -71,8 +71,6 @@ rule ninoseki_phishing_actor_emails_3
 	$sig179 = "jonstones04@gmail.com"
 	$sig180 = "jonadabe@hotmail.com"
 	$sig181 = "jon@horde.org"
-	$sig182 = "john@example.com"
-	$sig183 = "joe@example.com"
 	$sig184 = "jmikola@gmail.com"
 	$sig185 = "jlohwaterr@gmail.com"
 	$sig186 = "jimjag@gmail.com"
