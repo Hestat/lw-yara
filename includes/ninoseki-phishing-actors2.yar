@@ -21,7 +21,6 @@ rule ninoseki_phishing_actor_emails_2
     
 	$sig67 = "solevisible@gmail.com"
 	$sig68 = "snichol@users.sourceforge.net"
-	$sig69 = "slusarz@horde.org"
 	$sig70 = "singledana4000@gmail.com"
 	$sig71 = "sing2tracey@gmail.com"
 	$sig72 = "sheginst@gmail.com"
