@@ -47,6 +47,7 @@ rule phishing_actor_emails
 	$a37="casualonakoya@gmail.com"
 	$a38="lentomass60@gmail.com"
 	$a39="orangebillings@gmail.com"
+	$a40="anonnymusrezult@gmail.com"
 
     condition:
     
