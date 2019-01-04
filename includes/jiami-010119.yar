@@ -8,7 +8,7 @@
 
 /* Rule Set ----------------------------------------------------------------- */
 
-rule _home_hawk_infected_01_03_19_shell_jiami {
+rule infected_01_03_19_shell_jiami {
    meta:
       description = "shell - file jiami.php"
       author = "Brian Laskowski"
