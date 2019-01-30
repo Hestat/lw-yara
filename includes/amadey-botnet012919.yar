@@ -448,7 +448,7 @@ rule infected_01_29_19_amadey_botnet_index {
       ) or ( all of them )
 }
 
-rule settings {
+rule amadey_botnet_settings {
    meta:
       description = "amadey-botnet - file settings.php"
       author = "Brian Laskowski"
