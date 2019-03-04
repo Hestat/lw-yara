@@ -79,7 +79,7 @@ rule emotet_dropper1 {
       $s1 = "6576616c28677a696e666c617465286261736536345f6465636f64652822" ascii /* hex encoded string 'eval(gzinflate(base64_decode("' */
       $s2 = "222929293b" ascii /* hex encoded string '")));' */
       $s3 = "$n5c62c1bcb81d1 = fn5c62c1bcb819b('6576616c28677a696e666c617465286261736536345f6465636f64652822');" fullword ascii
-      $s4 = "eval($n5c62c1bcb81d1 . '[omitted due to size]' . $n5c62c1bcb8206);" fullword ascii
+      $s4 = "eval($n5c62c1bcb81d1" fullword ascii
    condition:
       ( uint16(0) == 0x3f3c and
          filesize < 1KB and
