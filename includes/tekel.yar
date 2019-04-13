@@ -1,4 +1,4 @@
-rule 05_26_18_tekel {
+rule infected_05_26_18_tekel {
    meta:
       description = "05-26-18 - file tekel.php"
       author = "Brian Laskowski"

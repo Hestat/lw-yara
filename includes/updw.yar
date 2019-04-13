@@ -1,4 +1,4 @@
-rule 05_26_18_updw {
+rule infected_05_26_18_updw {
    meta:
       description = "05-26-18 - file updw.php"
       author = "Brian Laskowski"

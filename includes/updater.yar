@@ -1,5 +1,5 @@
 
-rule 05_26_18_updater {
+rule infected_05_26_18_updater {
    meta:
       description = "05-26-18 - file updater.php"
       author = "Brian Laskowski"
