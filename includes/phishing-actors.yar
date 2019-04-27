@@ -48,6 +48,8 @@ rule phishing_actor_emails
 	$a38="lentomass60@gmail.com"
 	$a39="orangebillings@gmail.com"
 	$a40="anonnymusrezult@gmail.com"
+	$a41="stegmollersarah@gmail.com"
+	$a42="halifax89@yandex.com"
 
     condition:
     
