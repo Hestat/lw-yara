@@ -61,8 +61,6 @@ rule ninoseki_phishing_actor_emails_4
 	$sig232 = "example@example.com"
 	$sig233 = "ever.zet@gmail.com"
 	$sig234 = "eric@thumbtack.com"
-	$sig235 = "emailcenter@newsletter.magazineluiza.com.br"
-	$sig237 = "emailcenter2@newsletter.magazineluiza.com.br"
 	$sig254 = "elimart.bookz@gmail.com"
 	$sig255 = "ejramhrb@gmail.com"
 	$sig256 = "dunglas@gmail.com"
