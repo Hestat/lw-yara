@@ -4,6 +4,7 @@
    Date: 2019-10-11
    Identifier: PHP
    Reference: https://github.com/Hestat/lw-yara/
+   Reference: https://github.com/NavyTitanium/Misc-Malwares/tree/master/PHP
 */
 
 /* Rule Set ----------------------------------------------------------------- */
