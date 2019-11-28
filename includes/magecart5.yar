@@ -40,6 +40,7 @@ rule magecart_5 {
 	$s278 = "friend4cdn.com"
 	$s279 = "g-statistic.com"
 	$s280 = "bootstrap-js.com"
+	$s281 = "marketplace-magento.com"
    condition:
        any of them
 }
