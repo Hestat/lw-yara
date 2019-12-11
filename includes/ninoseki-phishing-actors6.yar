@@ -60,7 +60,6 @@ rule ninoseki_phishing_actor_emails_6
 	$sig359 = "bobotche@hotmail.fr"
 	$sig360 = "boletophp@boletophp.com.br"
 	$sig361 = "boris@yurchenko.pp.ua"
-	$sig362 = "brain79@inwind.it"
 	$sig363 = "brian@nesbot.com"
 	$sig364 = "bschussek@symfony.com"
 	$sig365 = "cc@internal.org"
@@ -82,7 +81,6 @@ rule ninoseki_phishing_actor_emails_6
 	$sig381 = "dan@rootcube.com"
 	$sig382 = "danilo@kvota.net"
 	$sig383 = "diego@agudo.eti.br"
-	$sig384 = "dietrich@ganx4.com"
 
     condition:
     
