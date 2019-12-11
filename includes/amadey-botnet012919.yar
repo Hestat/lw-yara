@@ -185,22 +185,6 @@ rule _home_hawk_infected_01_29_19_amadey_botnet_login {
       ) or ( all of them )
 }
 
-rule _home_hawk_infected_01_29_19_amadey_botnet_f_st_geo_ip {
-   meta:
-      description = "amadey-botnet - file geo_ip.dat"
-      author = "Brian Laskowski"
-      reference = "https://github.com/Hestat/lw-yara/"
-      date = "2019-01-30"
-      hash1 = "bc07ff22d4ee0b6fafcc12482ecf2981c172a672194c647cedf9b4d215ad9740"
-   strings:
-      $s1 = "GEO-106FREE 20180327 Build 1 Copyright (c) 2018 MaxMind Inc All Rights Reserved" fullword ascii
-   condition:
-      ( uint16(0) == 0x0001 and
-         filesize < 4000KB and
-         ( all of them )
-      ) or ( all of them )
-}
-
 rule unitinfo {
    meta:
       description = "amadey-botnet - file unitinfo.php"
@@ -253,41 +237,6 @@ rule infected_01_29_19_amadey_botnet_cfg_config {
       ( uint16(0) == 0x3f3c and
          filesize < 1KB and
          ( all of them )
-      ) or ( all of them )
-}
-
-rule infected_01_29_19_amadey_botnet_f_st_geo_ip_2 {
-   meta:
-      description = "amadey-botnet - file geo_ip.php"
-      author = "Brian Laskowski"
-      reference = "https://github.com/Hestat/lw-yara/"
-      date = "2019-01-30"
-      hash1 = "1aef5462ec90a0ffdeed3b534880d2fe07dc3c8d28fd41a7caf6d46b2fa0f38b"
-   strings:
-      $s1 = "throw new Exception(\"Error traversing database - perhaps it is corrupt?\");" fullword ascii
-      $s2 = "$buf = shmop_read ($this->shmid, 2 * $this->recordLength * $offset, 2 * $this->recordLength );" fullword ascii
-      $s3 = "throw new Exception(\"Invalid database type; lookupCountry*() methods expect Country database.\");" fullword ascii
-      $s4 = "throw new Exception(\"Unable to open shared memory at key: \" . dechex(self::SHM_KEY));" fullword ascii
-      $s5 = "return $this->seekCountry($ipnum) - self::COUNTRY_BEGIN;" fullword ascii
-      $s6 = "$buf = substr($this->memoryBuffer, 2 * $this->recordLength * $offset, 2 * $this->recordLength);" fullword ascii
-      $s7 = "static $COUNTRY_NAMES = array(\"?\", \"Asia/Pacific Region\", \"Europe\", \"Andorra\", \"United Arab Emirates\", \"Afghanistan\"" ascii
-      $s8 = "$buf = fread($this->filehandle, 2 * $this->recordLength);" fullword ascii
-      $s9 = "if (fseek($this->filehandle, 2 * $this->recordLength * $offset, SEEK_SET) !== 0) " fullword ascii
-      $s10 = "$offset = shmop_size($this->shmid) - 3;" fullword ascii
-      $s11 = "static function getInstance($filename = null, $flags = null) " fullword ascii
-      $s12 = "throw new Exception(\"Invalid IP address: \" . var_export($addr, true));" fullword ascii
-      $s13 = "$buf = shmop_read($this->shmid, $offset, self::SEGMENT_RECORD_LENGTH);" fullword ascii
-      $s14 = "$this->databaseType = ord(shmop_read($this->shmid, $offset, 1));" fullword ascii
-      $s15 = "$this->memoryBuffer = fread($this->filehandle, $s_array['size']);" fullword ascii
-      $s16 = "$x[$i] += ord($buf[$this->recordLength * $i + $j]) << ($j * 8);" fullword ascii
-      $s17 = "elseif (($this->databaseType === self::CITY_EDITION_REV0) || ($this->databaseType === se" fullword ascii
-      $s18 = "elseif ($this->databaseType === self::CITY_EDITION_REV0 || $this->databaseType === self:" fullword ascii
-      $s19 = "private function lookupCountryId($addr) " fullword ascii
-      $s20 = "private function loadSharedMemory($filename) " fullword ascii
-   condition:
-      ( uint16(0) == 0x3f3c and
-         filesize < 40KB and
-         ( 8 of them )
       ) or ( all of them )
 }
 
